@@ -106,7 +106,7 @@ insert into CLIENTE (ID_CLIENTE, NOMBRE, APELLIDO, DIRECCION, TELEFONO, EMAIL) v
 insert into CLIENTE (ID_CLIENTE, NOMBRE, APELLIDO, DIRECCION, TELEFONO, EMAIL) values (95, 'Wheeler', 'Melarkey', '35 Briar Crest Alley', '3323163227', 'wmelarkey2m@earthlink.net');
 insert into CLIENTE (ID_CLIENTE, NOMBRE, APELLIDO, DIRECCION, TELEFONO, EMAIL) values (96, 'Alejandro', 'Nell', '7798 Arizona Point', '8792328355', 'anell2n@amazon.co.jp');
 insert into CLIENTE (ID_CLIENTE, NOMBRE, APELLIDO, DIRECCION, TELEFONO, EMAIL) values (97, 'Ethel', 'Kloser', '5 Esch Pass', '1454517649', 'ekloser2o@theatlantic.com');
-insert into CLIENTE (ID_CLIENTE, NOMBRE, APELLIDO, DIRECCION, TELEFONO, EMAIL) values (98, 'Lambert', 'O''Lyhane', '888 Charing Cross Avenue', '1278199640', 'lolyhane2p@google.com');
+insert into CLIENTE (ID_CLIENTE, NOMBRE, APELLIDO, DIRECCION, TELEFONO, EMAIL) values (98, 'Lambert', 'OLyhane', '888 Charing Cross Avenue', '1278199640', 'lolyhane2p@google.com');
 insert into CLIENTE (ID_CLIENTE, NOMBRE, APELLIDO, DIRECCION, TELEFONO, EMAIL) values (99, 'Rosana', 'Bowes', '9409 Macpherson Pass', '1029662061', 'rbowes2q@berkeley.edu');
 insert into CLIENTE (ID_CLIENTE, NOMBRE, APELLIDO, DIRECCION, TELEFONO, EMAIL) values (100, 'Elizabet', 'Scriviner', '6 Nelson Parkway', '1463147522', 'escriviner2r@discovery.com');
 
