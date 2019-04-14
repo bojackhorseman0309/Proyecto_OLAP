@@ -148,11 +148,109 @@ FORMA_DE_PAGO     VARCHAR2(50)
 
 DROP TABLE ORDEN;
 
-insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (11, TO_DATE('2018/06/20', 'yyyy/mm/dd '), 10, 'EFECTIVO');
-insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (12, TO_DATE('2019/07/03', 'yyyy/mm/dd '), 9, 'EFECTIVO');
-insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (13, TO_DATE('2019/08/06', 'yyyy/mm/dd '), 8, 'TARJETA');
-insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (14, TO_DATE('2018/09/09', 'yyyy/mm/dd '), 5, 'TARJETA');
-insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (15, TO_DATE('2017/03/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (101, TO_DATE('2018/06/20', 'yyyy/mm/dd '), 10, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (102, TO_DATE('2019/01/03', 'yyyy/mm/dd '), 9, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (103, TO_DATE('2019/02/06', 'yyyy/mm/dd '), 8, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (104, TO_DATE('2016/04/08', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (105, TO_DATE('2017/05/17', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (106, TO_DATE('2019/01/21', 'yyyy/mm/dd '), 4, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (107, TO_DATE('2018/03/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (108, TO_DATE('2017/03/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (109, TO_DATE('2016/04/15', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (110, TO_DATE('2016/07/24', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (111, TO_DATE('2018/06/19', 'yyyy/mm/dd '), 10, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (112, TO_DATE('2019/04/12', 'yyyy/mm/dd '), 9, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (113, TO_DATE('2019/01/06', 'yyyy/mm/dd '), 8, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (114, TO_DATE('2018/11/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (115, TO_DATE('2016/12/07', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (116, TO_DATE('2016/04/08', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (117, TO_DATE('2019/02/25', 'yyyy/mm/dd '), 2, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (118, TO_DATE('2016/10/09', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (119, TO_DATE('2017/01/24', 'yyyy/mm/dd '), 4, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (120, TO_DATE('2016/03/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (121, TO_DATE('2017/11/13', 'yyyy/mm/dd '), 7, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (122, TO_DATE('2017/03/08', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (123, TO_DATE('2018/03/19', 'yyyy/mm/dd '), 4, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (124, TO_DATE('2019/01/09', 'yyyy/mm/dd '), 2, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (125, TO_DATE('2018/03/16', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (126, TO_DATE('2017/05/13', 'yyyy/mm/dd '), 6, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (127, TO_DATE('2018/06/20', 'yyyy/mm/dd '), 11, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (128, TO_DATE('2019/04/11', 'yyyy/mm/dd '), 9, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (129, TO_DATE('2019/02/06', 'yyyy/mm/dd '), 8, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (130, TO_DATE('2018/09/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (131, TO_DATE('2017/01/09', 'yyyy/mm/dd '), 6, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (132, TO_DATE('2016/08/08', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (133, TO_DATE('2019/03/25', 'yyyy/mm/dd '), 2, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (134, TO_DATE('2016/04/09', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (135, TO_DATE('2018/01/21', 'yyyy/mm/dd '), 4, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (136, TO_DATE('2017/03/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (137, TO_DATE('2017/12/19', 'yyyy/mm/dd '), 2, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (138, TO_DATE('2016/11/29', 'yyyy/mm/dd '), 2, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (139, TO_DATE('2017/02/19', 'yyyy/mm/dd '), 3, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (140, TO_DATE('2019/03/04', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (141, TO_DATE('2016/10/09', 'yyyy/mm/dd '), 4, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (142, TO_DATE('2017/03/02', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (143, TO_DATE('2019/03/03', 'yyyy/mm/dd '), 9, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (144, TO_DATE('2016/02/08', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (145, TO_DATE('2016/04/09', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (146, TO_DATE('2016/03/01', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (147, TO_DATE('2017/02/19', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (148, TO_DATE('2019/02/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (149, TO_DATE('2019/04/03', 'yyyy/mm/dd '), 9, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (150, TO_DATE('2019/01/06', 'yyyy/mm/dd '), 8, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (151, TO_DATE('2016/04/24', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (152, TO_DATE('2017/03/31', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (153, TO_DATE('2019/02/06', 'yyyy/mm/dd '), 8, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (154, TO_DATE('2017/03/29', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (155, TO_DATE('2017/03/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (156, TO_DATE('2018/03/27', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (157, TO_DATE('2018/05/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (158, TO_DATE('2019/03/30', 'yyyy/mm/dd '), 9, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (159, TO_DATE('2018/09/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (160, TO_DATE('2017/03/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (161, TO_DATE('2016/06/08', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (162, TO_DATE('2018/06/20', 'yyyy/mm/dd '), 10, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (163, TO_DATE('2019/01/03', 'yyyy/mm/dd '), 9, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (164, TO_DATE('2019/01/06', 'yyyy/mm/dd '), 8, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (165, TO_DATE('2016/04/27', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (166, TO_DATE('2016/04/09', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (167, TO_DATE('2018/11/21', 'yyyy/mm/dd '), 4, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (168, TO_DATE('2017/05/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (169, TO_DATE('2019/03/24', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (170, TO_DATE('2016/12/08', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (171, TO_DATE('2016/04/09', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (172, TO_DATE('2018/06/23', 'yyyy/mm/dd '), 10, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (173, TO_DATE('2019/03/03', 'yyyy/mm/dd '), 9, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (174, TO_DATE('2019/04/06', 'yyyy/mm/dd '), 8, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (175, TO_DATE('2016/10/13', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (176, TO_DATE('2016/04/09', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (177, TO_DATE('2018/01/21', 'yyyy/mm/dd '), 4, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (178, TO_DATE('2017/03/01', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (179, TO_DATE('2017/05/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (180, TO_DATE('2016/04/08', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (181, TO_DATE('2016/04/01', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (182, TO_DATE('2018/06/20', 'yyyy/mm/dd '), 10, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (183, TO_DATE('2019/01/03', 'yyyy/mm/dd '), 9, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (184, TO_DATE('2019/02/06', 'yyyy/mm/dd '), 8, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (185, TO_DATE('2016/04/04', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (186, TO_DATE('2016/04/09', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (187, TO_DATE('2018/01/21', 'yyyy/mm/dd '), 4, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (188, TO_DATE('2017/03/09', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (189, TO_DATE('2017/11/22', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (190, TO_DATE('2016/04/28', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (191, TO_DATE('2016/04/26', 'yyyy/mm/dd '), 3, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (192, TO_DATE('2017/03/13', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (193, TO_DATE('2017/02/19', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (194, TO_DATE('2016/04/06', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (195, TO_DATE('2017/03/04', 'yyyy/mm/dd '), 5, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (196, TO_DATE('2017/02/09', 'yyyy/mm/dd '), 3, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (197, TO_DATE('2016/04/03', 'yyyy/mm/dd '), 7, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (198, TO_DATE('2018/06/23', 'yyyy/mm/dd '), 10, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (199, TO_DATE('2019/02/07', 'yyyy/mm/dd '), 9, 'EFECTIVO');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (200, TO_DATE('2019/04/05', 'yyyy/mm/dd '), 8, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (200, TO_DATE('2016/01/05', 'yyyy/mm/dd '), 3, 'TARJETA');
+
+
 
 CREATE TABLE PROVEEDOR(
 ID_PROVEEDOR		    INT PRIMARY KEY,
@@ -277,13 +375,13 @@ CANTIDAD        INT,
 CONSTRAINT FK_CLI
   FOREIGN KEY (ID_CLIENTE)   REFERENCES CLIENTE(ID_CLIENTE),
 CONSTRAINT FK_ART
-  FOREIGN KEY (ID_ARTICULO)  REFERENCES ARTICULO(ID_ARTICULO), 
+  FOREIGN KEY (ID_ARTICULO)  REFERENCES ARTICULO(ID_ARTICULO),
 CONSTRAINT FK_TIENDA
   FOREIGN KEY (ID_TIENDA)    REFERENCES TIENDA(ID_TIENDA),
 CONSTRAINT FK_ORD
-  FOREIGN KEY (ID_ORDEN)     REFERENCES ORDEN(ID_ORDEN), 
+  FOREIGN KEY (ID_ORDEN)     REFERENCES ORDEN(ID_ORDEN),
 CONSTRAINT FK_PROV
-  FOREIGN KEY (ID_PROVEEDOR) REFERENCES PROVEEDOR(ID_PROVEEDOR) 
+  FOREIGN KEY (ID_PROVEEDOR) REFERENCES PROVEEDOR(ID_PROVEEDOR)
 );
 
 DROP TABLE VENTAS;
@@ -294,7 +392,3 @@ INSERT INTO VENTAS VALUES (102, 3, 7, 9, 13, 17, 7000, TO_DATE('2019/10/22', 'yy
 INSERT INTO VENTAS VALUES (103, 4, 8, 10, 14, 18, 76000, TO_DATE('2018/04/23', 'yyyy/mm/dd '), 5);
 
 COMMIT;
-
-
-
-
