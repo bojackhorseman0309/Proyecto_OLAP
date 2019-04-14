@@ -248,7 +248,7 @@ insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (197, TO_DAT
 insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (198, TO_DATE('2018/06/23', 'yyyy/mm/dd '), 10, 'EFECTIVO');
 insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (199, TO_DATE('2019/02/07', 'yyyy/mm/dd '), 9, 'EFECTIVO');
 insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (200, TO_DATE('2019/04/05', 'yyyy/mm/dd '), 8, 'TARJETA');
-insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (200, TO_DATE('2016/01/05', 'yyyy/mm/dd '), 3, 'TARJETA');
+insert into ORDEN (ID_ORDEN, FECHA, CANTIDAD, FORMA_DE_PAGO) values (201, TO_DATE('2016/01/05', 'yyyy/mm/dd '), 3, 'TARJETA');
 
 
 
